@@ -29,7 +29,7 @@ db.connect((err) => {
 // listen to the server
 app.listen(port, () => {
   console.log(`server is running on http://localhost:${port}`)
-}) 
+}); 
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
