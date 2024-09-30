@@ -1,0 +1,12 @@
+<table>
+    <thead>
+        <th>First Name</th>
+    </thead>
+    <tbody>
+        <% results.forEach(row => { %>
+            <tr>
+                <td><%= row.first_name %></td>
+            </tr> 
+        <% }); %>
+    </tbody>
+</table>
